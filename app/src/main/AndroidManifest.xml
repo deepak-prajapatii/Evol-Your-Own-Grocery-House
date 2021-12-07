@@ -11,13 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EvolYourOwnGroceryHouse">
         <activity
-            android:name=".SignUpActivity"
+            android:name=".ui.signup.SignUpActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".ui.login.LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".ui.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
